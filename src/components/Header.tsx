@@ -40,7 +40,7 @@ const Header = () => {
                 </li>)}
             </ul>
           </nav>
-          <a href="emmanuel-resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded hover:bg-blue-700 transition duration-150 ease-in-out">
+          <a href="emmanuel-resume.docx" target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded hover:bg-blue-700 transition duration-150 ease-in-out">
             <DownloadIcon size={16} className="mr-2" />
             Resume
           </a>
