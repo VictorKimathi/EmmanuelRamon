@@ -1,0 +1,17 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* Base styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333333;
+  line-height: 1.5;
+}
+/* Custom utilities */
+.container {
+  max-width: 1200px;
+}
