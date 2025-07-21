@@ -5,52 +5,31 @@ const PortfolioPage = () => {
   const [filter, setFilter] = useState('all');
   const portfolioItems = [{
     id: 1,
-    title: 'Ultimate Guide to Roth IRA Conversions',
-    publisher: 'Finance Buzz',
-    description: 'Comprehensive 3,000-word guide explaining the process, benefits, and considerations of Roth IRA conversions for different financial situations.',
+    title: 'How to Start Investing in Your 50s Without Feeling Left Behind',
+    publisher: 'Emmanuel Ramon',
+    description: 'Starting to invest in your 50s can feel overwhelming, especially if others around you began decades earlier. But feeling behind does not mean you are out of time. With focused effort and smart decisions, it is possible to build meaningful savings and strengthen your financial future.',
     imageUrl: 'https://images.unsplash.com/photo-1565514020179-026b92b2d95b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
     category: 'retirement',
-    tags: ['Retirement', 'Tax Strategy', 'Long-form']
+    tags: ['Retirement', 'Tax Strategy', 'Long-form'],
+    href: 'How_to_Start_Investing_in_Your_50s_Without_Feeling_Left_Behind.pdf'
   }, {
     id: 2,
-    title: '10 Side Hustles That Actually Pay Off in 2023',
-    publisher: 'The Penny Hoarder',
-    description: 'Data-driven analysis of profitable side hustles with real income potential, including startup costs, time investment, and expected returns.',
+    title: 'How Retailers Use Psychology to Get You to Spend More',
+    publisher: 'Emmanuel Ramon',
+    description: 'Spending more than you planned is not always the result of poor budgeting. Sometimes, it’s the outcome of carefully designed environments and marketing techniques meant to influence how you think, feel, and act. Retailers rely on psychological tactics to increase sales, many of which go unnoticed by the average shopper. From how a store is laid out to the way a price tag is printed, these methods are built to guide your decisions in subtle but powerful ways.',
     imageUrl: 'https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
     category: 'income',
-    tags: ['Side Hustles', 'Income Generation', 'Practical Guide']
+    tags: ['Financial Basics', 'Emergency Planning', 'Beginner Guide'],
+    href: 'How_Retailers_Use_Psychology_to_Get_You_to_Spend_More.pdf'
   }, {
     id: 3,
-    title: 'Debt Avalanche vs. Debt Snowball: Which Strategy Wins?',
-    publisher: 'DollarSprout',
-    description: 'Comparative analysis of popular debt reduction methods with calculator tools and case studies showing real-world applications.',
-    imageUrl: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'debt',
-    tags: ['Debt Management', 'Financial Strategy', 'Comparative Analysis']
-  }, {
-    id: 4,
-    title: 'Tax Loss Harvesting: Turning Market Downturns into Tax Advantages',
-    publisher: 'Finance Buzz',
-    description: 'Strategic guide to minimizing tax liability through strategic investment losses, with timing considerations and IRS compliance guidelines.',
+    title: '5 Everyday Habits That Quietly Drain Your Retirement Savings',
+    publisher: 'Emmanuel Ramon',
+    description: 'Saving for retirement is often framed as a big-picture challenge, but the reality is that small, everyday choices can quietly chip away at your long-term financial security. It’s not always the major expenses or investment mistakes that do the most damage.',
     imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'tax',
-    tags: ['Tax Strategy', 'Investing', 'Advanced Technique']
-  }, {
-    id: 5,
-    title: 'Building Your First Emergency Fund: A Step-by-Step Guide',
-    publisher: 'The Penny Hoarder',
-    description: 'Beginner-friendly guide to establishing financial security through emergency savings, with practical savings strategies for various income levels.',
-    imageUrl: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
     category: 'basics',
-    tags: ['Financial Basics', 'Emergency Planning', 'Beginner Guide']
-  }, {
-    id: 6,
-    title: 'The Complete Guide to 401(k) Plans in 2023',
-    publisher: 'DollarSprout',
-    description: 'Detailed explanation of 401(k) features, contribution strategies, and optimization techniques for maximizing employer benefits.',
-    imageUrl: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'retirement',
-    tags: ['Retirement', '401(k)', 'Comprehensive Guide']
+    tags: ['Financial Basics', 'Emergency Planning', 'Beginner Guide'],
+    href: '5_Everyday_Habits_That_Quietly_Drain_Your_Retirement_Savings.pdf'
   }];
   const filteredItems = filter === 'all' ? portfolioItems : portfolioItems.filter(item => item.category === filter);
   return <div className="w-full">
