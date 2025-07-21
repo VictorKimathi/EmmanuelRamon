@@ -102,7 +102,7 @@ const HomePage = () => {
       {/* Testimonial 1 */}
       <div className="bg-cream rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow">
         <p className="text-gray-800 italic mb-4">
-          "An absolute pleasure to work with. Jasselene turned complex outdoor topics into accessible, engaging reads our readers loved."
+          "An absolute pleasure to work with. Emmanuel turned complex outdoor topics into accessible, engaging reads our readers loved."
         </p>
         <div className="flex items-center">
           <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client 1" className="w-12 h-12 rounded-full mr-4" />
@@ -130,7 +130,7 @@ const HomePage = () => {
       {/* Testimonial 3 */}
       <div className="bg-cream rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow">
         <p className="text-gray-800 italic mb-4">
-          "Reliable, creative, and deeply knowledgeable. Jasselene brought a fresh and informative tone to our gardening series."
+          "Reliable, creative, and deeply knowledgeable. Emmanuel brought a fresh and informative tone to our gardening series."
         </p>
         <div className="flex items-center">
           <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Client 3" className="w-12 h-12 rounded-full mr-4" />
